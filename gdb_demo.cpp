@@ -1,3 +1,5 @@
+// Note: this demonstration should be done on CAEN, it has produced undefined results on other platforms.
+
 int foo(int* array, int size) {
 	int sum = 0;
 	for (int i = 0; i < size; i++) {
