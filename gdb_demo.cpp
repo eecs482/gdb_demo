@@ -6,9 +6,9 @@ using namespace std;
 
 // Requires: array contains non-zero integers
 // Effects: calculate the sum of the integer inverses of an array times ten
-int foo(const int *array, unsigned int size) {
+int foo(const int *array, size_t size) {
 	int sum = 0;
-	for (unsigned int i = 0; i < size; i++) {
+	for (size_t i = 0; i < size; i++) {
 		int elt = 10 / array[i];
 		sum += elt;
 	}
@@ -17,7 +17,7 @@ int foo(const int *array, unsigned int size) {
 
 int main() {
 	int arr[5] = {2, 1, 0};
-	unsigned int arr_size = 3;
+	size_t arr_size = 3;
 	int result = foo(arr, arr_size);
 	cout << result << endl;
 }
