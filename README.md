@@ -6,7 +6,7 @@ GDB Exercise for Lab 0
 
 1. SSH into CAEN
 ```
-$ ssh uniqname@oncampus-course.engin.umich.edu
+$ ssh uniqname@login.engin.umich.edu
 ```
 
 2. Navigate to a directory you'd like to clone the repo into
@@ -20,7 +20,7 @@ $ git clone https://github.com/eecs482/gdb_demo.git
 $ cd gdb_demo
 ```
 
-4. You will find an executable. This executable has a bug in it. Use GDB to figure out where the bug is!
+4. You will find an executable called `demo` and a core dump called `core`. The executable has a bug in it. Use GDB to figure out where the bug is!
 
 ## Resources
 
